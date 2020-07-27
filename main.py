@@ -23,7 +23,7 @@ try:
         print('I am checking...')
         statusUpdated = False
 
-        driver = webdriver.Chrome(chrome_options=chrome_options, executable_path='/home/aj/Documents/Projects/instaScrapper/chromedriver')
+        driver = webdriver.Chrome(chrome_options=chrome_options, executable_path='chromedriver')
         driver.get(website)
         sleep(1)
         soldOutButton=driver.find_element_by_id("AddToCartText-product-template")
